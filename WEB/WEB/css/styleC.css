@@ -1,0 +1,54 @@
+.peli {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 130px;
+    text-align: center;
+    max-width: 500px;
+    height: 370px;
+    background-color: rgba(28,39,39,0.51);
+    color: white;
+}
+
+.peli p {
+    max-width: border-box;
+    font-size: 15px;
+}
+
+.peli img {
+    float: left;
+    width: 225px; height: 350px;
+}
+
+#avatar, #bestia {
+    float: right;
+}
+
+.films {
+    /*display: grid;
+    grid-template-areas: 'p1 p2'
+    'p3 p4';*/
+}
+
+.peli button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.peli button:hover{
+    color: black;
+    background-color: white;
+}
+
+/*
+.peli #detall{
+    left: 50%;
+}*/
+
+

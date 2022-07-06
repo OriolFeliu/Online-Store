@@ -1,0 +1,196 @@
+
+/*TOTA LA PÀGINA*/
+body {
+    /*background-image: url("../imatges/fondo.jpg");*/
+    background-color: #161f1f;
+    font-family: "Open Sans";
+    color: white;
+    padding: 0;
+    margin: 0;
+
+    margin-top: 100px; /*per intentar arreglar bug on cos no funcionava*/
+}
+
+.activa {
+    font-family: MingLiU-ExtB;
+    font-size: 20px;
+    font-weight:bold;
+    background-color: rgba(145,31,4,0.45);
+}
+
+/*----------------------------------------------*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    overflow: visible;
+}
+/*BARRA NAVEGACIÓ*/
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("../imatges/papel.jpg");
+}
+
+header li {
+    float: left;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.barraNav ul li{
+    list-style-type: none;
+    cursor: pointer;
+
+}
+header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+header ul a:hover {
+    background: rgba(255,148,24,0.35);
+    color: black;
+}
+
+header li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    float: none;
+}
+
+header li:hover > ul{
+    display: block;
+    background-image: url("../imatges/papel.jpg");
+    z-index: 1;
+}
+
+.nav li ul li {
+    position:relative;
+    text-decoration: none;
+
+
+}
+
+/*---------------------------------------------*/
+
+/*GRID PER RESPONSIVE LAYOUT*/
+.productes {
+    display: grid;
+    grid-template-areas: 'c1 c2 c3';
+}
+/*
+@media (min-width: 600px )
+{
+    .productes {
+        display: grid;
+        grid-template-areas: 'c1 c2 c3'
+                            'c4 c5 c6';
+    }
+}*/
+
+/*---------------------------------------------------*/
+
+/*BARRA DE BUSQUEDA*/
+.search {
+    position: relative;
+    padding-left: 100px;
+}
+
+/*.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}*/
+
+/*-------------------------------------------------*/
+
+/*IMATGES DE LA PAG PRINCIPAL*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url("../imatges/fondo.jpg");
+}
+
+.card img {
+    float: left;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.login h3{
+    background-color: white;
+    color: black;
+}
+
+
+.foot {
+    position: fixed;
+    top: 600px;
+    width: 100%;
+    height: 60px;
+    overflow: visible;
+    background-color: black;
+    color: white;
+}
+
+.foot h1{
+    display: block;
+    padding-right: 200px;
+    padding-left: 200px;
+    float: left;
+}
+
+#buidar {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    top: 95px;
+}
+
+#buidar:hover{
+    color: black;
+    background-color: white;
+}

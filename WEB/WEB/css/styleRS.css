@@ -1,0 +1,17 @@
+.login {
+    text-align: justify;
+    margin: 50px 50px;
+    background-color: rgba(28,39,39,0.51);
+    font-size: 30px;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+#submit:hover {
+    cursor: pointer;
+}
